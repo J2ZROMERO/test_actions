@@ -36,5 +36,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v7
         with:
+          context: .
           push: true
           tags: ghcr.io/j2zromero/test_actions:latest
