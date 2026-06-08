@@ -8,7 +8,7 @@ def  add(a,b):
 
 class Calculator:
     def add(self, a: int , b: int) -> int:
-        return 0
+        return a+b
 
 if __name__ == "__main__":
     main()
